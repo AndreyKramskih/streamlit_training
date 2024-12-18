@@ -19,7 +19,7 @@ data=pd.DataFrame({
     'second column': [10,20,30,40]
 })
 st.write(data)
-st.subheader('Accept multiple arguments')
+#st.subheader('Accept multiple arguments')
 st.write('Below is DataFrame:')
 st.write(data)
 st.write('Above is dataframe:')
