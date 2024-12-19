@@ -3,6 +3,6 @@ import pandas as pd
 import numpy as np
 
 
-st.header('Select box')
-check=st.selectbox('What is your favorite color?', options=['Red', 'Blue', 'Green'])
-st.write('Your favorite color is', check)
+st.header('st.multiselect')
+value=st.multiselect('What are you favorite colors?', options=['Green', 'Yellow', 'Red', 'Blue'])
+st.write('You selected:',value)
